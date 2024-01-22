@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zjxtworktool.JinEZhuanHuanPage"
+             Title="金额转换">
+
+  <VerticalStackLayout Padding="10,10" >
+    <Border StrokeThickness="0" Margin="0, 20, 0, 0" >
+      <VerticalStackLayout>
+        <Label>小写金额:</Label>
+        <Entry x:Name="xiaoxie" Placeholder="请输入小写金额" 
+          HorizontalTextAlignment="End" FontSize="40" 
+          TextChanged="Entry_TextChanged" 
+          Keyboard="Numeric"/>
+
+
+        <Label Margin="0, 50,0,0">大写金额:</Label>
+        <Entry x:Name="daxie" Placeholder="输出大写" IsReadOnly="True" HorizontalTextAlignment="End"/>
+
+      </VerticalStackLayout>
+    </Border>
+  </VerticalStackLayout>
+</ContentPage>

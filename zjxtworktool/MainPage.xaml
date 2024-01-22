@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zjxtworktool.MainPage">
+
+  <ScrollView>
+    <VerticalStackLayout Padding="10,0" Spacing="10">
+      <Button Text="金额转换"  Clicked="navigateJinEZhuanHuan"  />
+      <Button Text="价税分离" Clicked="navigateJiaShuiFenLi" />
+    </VerticalStackLayout>
+  </ScrollView>
+
+</ContentPage>
